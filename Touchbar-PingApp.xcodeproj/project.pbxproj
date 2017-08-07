@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00050FD8A266D69993E96DB4 /* Pods_Touchbar_PingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D707B46F8CE45BF11E577D /* Pods_Touchbar_PingAppTests.framework */; };
+		340F75A9F9645FCFEB42F234 /* Pods_Touchbar_PingAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0123E5FE30ACBD930687DAE /* Pods_Touchbar_PingAppUITests.framework */; };
+		3A7577986B8EF3DD50533FA5 /* Pods_Touchbar_PingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 074A4B351F4525ECCB999E3E /* Pods_Touchbar_PingApp.framework */; };
+		4E2910C21F38CE3C009FA175 /* DFRFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E2910C11F38CE3C009FA175 /* DFRFoundation.framework */; };
+		4E2910C61F38D07D009FA175 /* DFRPrivateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E2910C41F38D07D009FA175 /* DFRPrivateHeader.m */; };
+		4E2910C71F38D07D009FA175 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E2910C51F38D07D009FA175 /* WindowController.swift */; };
+		4E5F695B1F38CC4200E262A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F695A1F38CC4200E262A5 /* AppDelegate.swift */; };
+		4E5F695F1F38CC4200E262A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E5F695E1F38CC4200E262A5 /* Assets.xcassets */; };
+		4E5F69621F38CC4300E262A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E5F69601F38CC4300E262A5 /* Main.storyboard */; };
+		4E5F696D1F38CC4300E262A5 /* Touchbar_PingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F696C1F38CC4300E262A5 /* Touchbar_PingAppTests.swift */; };
+		4E5F69781F38CC4300E262A5 /* Touchbar_PingAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E5F69771F38CC4300E262A5 /* Touchbar_PingAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E5F69691F38CC4300E262A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E5F694F1F38CC4200E262A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E5F69561F38CC4200E262A5;
+			remoteInfo = "Touchbar-PingApp";
+		};
+		4E5F69741F38CC4300E262A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E5F694F1F38CC4200E262A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E5F69561F38CC4200E262A5;
+			remoteInfo = "Touchbar-PingApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074A4B351F4525ECCB999E3E /* Pods_Touchbar_PingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Touchbar_PingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE0635344834B4BE0376F21 /* Pods-Touchbar-PingAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touchbar-PingAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Touchbar-PingAppUITests/Pods-Touchbar-PingAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		19732D07346D03FD261D37F2 /* Pods-Touchbar-PingAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touchbar-PingAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Touchbar-PingAppUITests/Pods-Touchbar-PingAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2586EBAC6BB741DCA90EA2BE /* Pods-Touchbar-PingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touchbar-PingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Touchbar-PingAppTests/Pods-Touchbar-PingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		4E2910C11F38CE3C009FA175 /* DFRFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DFRFoundation.framework; path = ../../../../../System/Library/PrivateFrameworks/DFRFoundation.framework; sourceTree = "<group>"; };
+		4E2910C31F38D07D009FA175 /* DFRPrivateHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFRPrivateHeader.h; sourceTree = "<group>"; };
+		4E2910C41F38D07D009FA175 /* DFRPrivateHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFRPrivateHeader.m; sourceTree = "<group>"; };
+		4E2910C51F38D07D009FA175 /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		4E5F69571F38CC4200E262A5 /* Touchbar-PingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Touchbar-PingApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5F695A1F38CC4200E262A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E5F695E1F38CC4200E262A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E5F69611F38CC4300E262A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E5F69631F38CC4300E262A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5F69681F38CC4300E262A5 /* Touchbar-PingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Touchbar-PingAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5F696C1F38CC4300E262A5 /* Touchbar_PingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touchbar_PingAppTests.swift; sourceTree = "<group>"; };
+		4E5F696E1F38CC4300E262A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5F69731F38CC4300E262A5 /* Touchbar-PingAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Touchbar-PingAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5F69771F38CC4300E262A5 /* Touchbar_PingAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Touchbar_PingAppUITests.swift; sourceTree = "<group>"; };
+		4E5F69791F38CC4300E262A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E5F69871F38CCB000E262A5 /* Touchbar-PingApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Touchbar-PingApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		629A73F67507EAB01ECA8EEF /* Pods-Touchbar-PingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touchbar-PingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Touchbar-PingAppTests/Pods-Touchbar-PingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0123E5FE30ACBD930687DAE /* Pods_Touchbar_PingAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Touchbar_PingAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE2BBB525A0B4A2D2579B339 /* Pods-Touchbar-PingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touchbar-PingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Touchbar-PingApp/Pods-Touchbar-PingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D9D707B46F8CE45BF11E577D /* Pods_Touchbar_PingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Touchbar_PingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8D9A74731EF49C1B87F056F /* Pods-Touchbar-PingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Touchbar-PingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Touchbar-PingApp/Pods-Touchbar-PingApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E5F69541F38CC4200E262A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E2910C21F38CE3C009FA175 /* DFRFoundation.framework in Frameworks */,
+				3A7577986B8EF3DD50533FA5 /* Pods_Touchbar_PingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5F69651F38CC4300E262A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00050FD8A266D69993E96DB4 /* Pods_Touchbar_PingAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5F69701F38CC4300E262A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340F75A9F9645FCFEB42F234 /* Pods_Touchbar_PingAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31522474178AC6DB255AA882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CE2BBB525A0B4A2D2579B339 /* Pods-Touchbar-PingApp.debug.xcconfig */,
+				F8D9A74731EF49C1B87F056F /* Pods-Touchbar-PingApp.release.xcconfig */,
+				629A73F67507EAB01ECA8EEF /* Pods-Touchbar-PingAppTests.debug.xcconfig */,
+				2586EBAC6BB741DCA90EA2BE /* Pods-Touchbar-PingAppTests.release.xcconfig */,
+				0EE0635344834B4BE0376F21 /* Pods-Touchbar-PingAppUITests.debug.xcconfig */,
+				19732D07346D03FD261D37F2 /* Pods-Touchbar-PingAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4E5F694E1F38CC4200E262A5 = {
+			isa = PBXGroup;
+			children = (
+				4E5F69591F38CC4200E262A5 /* Touchbar-PingApp */,
+				4E5F696B1F38CC4300E262A5 /* Touchbar-PingAppTests */,
+				4E5F69761F38CC4300E262A5 /* Touchbar-PingAppUITests */,
+				4E5F69581F38CC4200E262A5 /* Products */,
+				31522474178AC6DB255AA882 /* Pods */,
+				6A609AE8EFFECC11B0B2C76B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4E5F69581F38CC4200E262A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E5F69571F38CC4200E262A5 /* Touchbar-PingApp.app */,
+				4E5F69681F38CC4300E262A5 /* Touchbar-PingAppTests.xctest */,
+				4E5F69731F38CC4300E262A5 /* Touchbar-PingAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E5F69591F38CC4200E262A5 /* Touchbar-PingApp */ = {
+			isa = PBXGroup;
+			children = (
+				4E2910C31F38D07D009FA175 /* DFRPrivateHeader.h */,
+				4E2910C41F38D07D009FA175 /* DFRPrivateHeader.m */,
+				4E2910C51F38D07D009FA175 /* WindowController.swift */,
+				4E5F695A1F38CC4200E262A5 /* AppDelegate.swift */,
+				4E5F695E1F38CC4200E262A5 /* Assets.xcassets */,
+				4E5F69601F38CC4300E262A5 /* Main.storyboard */,
+				4E5F69631F38CC4300E262A5 /* Info.plist */,
+				4E5F69871F38CCB000E262A5 /* Touchbar-PingApp-Bridging-Header.h */,
+			);
+			path = "Touchbar-PingApp";
+			sourceTree = "<group>";
+		};
+		4E5F696B1F38CC4300E262A5 /* Touchbar-PingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E5F696C1F38CC4300E262A5 /* Touchbar_PingAppTests.swift */,
+				4E5F696E1F38CC4300E262A5 /* Info.plist */,
+			);
+			path = "Touchbar-PingAppTests";
+			sourceTree = "<group>";
+		};
+		4E5F69761F38CC4300E262A5 /* Touchbar-PingAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4E5F69771F38CC4300E262A5 /* Touchbar_PingAppUITests.swift */,
+				4E5F69791F38CC4300E262A5 /* Info.plist */,
+			);
+			path = "Touchbar-PingAppUITests";
+			sourceTree = "<group>";
+		};
+		6A609AE8EFFECC11B0B2C76B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E2910C11F38CE3C009FA175 /* DFRFoundation.framework */,
+				074A4B351F4525ECCB999E3E /* Pods_Touchbar_PingApp.framework */,
+				D9D707B46F8CE45BF11E577D /* Pods_Touchbar_PingAppTests.framework */,
+				B0123E5FE30ACBD930687DAE /* Pods_Touchbar_PingAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E5F69561F38CC4200E262A5 /* Touchbar-PingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5F697C1F38CC4300E262A5 /* Build configuration list for PBXNativeTarget "Touchbar-PingApp" */;
+			buildPhases = (
+				8B3E0E827737A91BDB76590B /* [CP] Check Pods Manifest.lock */,
+				4E5F69531F38CC4200E262A5 /* Sources */,
+				4E5F69541F38CC4200E262A5 /* Frameworks */,
+				4E5F69551F38CC4200E262A5 /* Resources */,
+				242A387FED2DE1F004CF42CC /* [CP] Embed Pods Frameworks */,
+				A01E95FE309F84EDE99DF4FE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Touchbar-PingApp";
+			productName = "Touchbar-PingApp";
+			productReference = 4E5F69571F38CC4200E262A5 /* Touchbar-PingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E5F69671F38CC4300E262A5 /* Touchbar-PingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5F697F1F38CC4300E262A5 /* Build configuration list for PBXNativeTarget "Touchbar-PingAppTests" */;
+			buildPhases = (
+				44A2F3DB89E5959AA95444AB /* [CP] Check Pods Manifest.lock */,
+				4E5F69641F38CC4300E262A5 /* Sources */,
+				4E5F69651F38CC4300E262A5 /* Frameworks */,
+				4E5F69661F38CC4300E262A5 /* Resources */,
+				2AD18BBAC6EBC7462E5F6C6F /* [CP] Embed Pods Frameworks */,
+				12B23ADB524059EF27E7D8A4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E5F696A1F38CC4300E262A5 /* PBXTargetDependency */,
+			);
+			name = "Touchbar-PingAppTests";
+			productName = "Touchbar-PingAppTests";
+			productReference = 4E5F69681F38CC4300E262A5 /* Touchbar-PingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4E5F69721F38CC4300E262A5 /* Touchbar-PingAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E5F69821F38CC4300E262A5 /* Build configuration list for PBXNativeTarget "Touchbar-PingAppUITests" */;
+			buildPhases = (
+				9388A0DB57235D4352A27109 /* [CP] Check Pods Manifest.lock */,
+				4E5F696F1F38CC4300E262A5 /* Sources */,
+				4E5F69701F38CC4300E262A5 /* Frameworks */,
+				4E5F69711F38CC4300E262A5 /* Resources */,
+				5C97F647D53D2DB5A792B731 /* [CP] Embed Pods Frameworks */,
+				58751C4A56F9A54C5BA27274 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E5F69751F38CC4300E262A5 /* PBXTargetDependency */,
+			);
+			name = "Touchbar-PingAppUITests";
+			productName = "Touchbar-PingAppUITests";
+			productReference = 4E5F69731F38CC4300E262A5 /* Touchbar-PingAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E5F694F1F38CC4200E262A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Crayer;
+				TargetAttributes = {
+					4E5F69561F38CC4200E262A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q6446TTV2Z;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					4E5F69671F38CC4300E262A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q6446TTV2Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E5F69561F38CC4200E262A5;
+					};
+					4E5F69721F38CC4300E262A5 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = Q6446TTV2Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4E5F69561F38CC4200E262A5;
+					};
+				};
+			};
+			buildConfigurationList = 4E5F69521F38CC4200E262A5 /* Build configuration list for PBXProject "Touchbar-PingApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E5F694E1F38CC4200E262A5;
+			productRefGroup = 4E5F69581F38CC4200E262A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E5F69561F38CC4200E262A5 /* Touchbar-PingApp */,
+				4E5F69671F38CC4300E262A5 /* Touchbar-PingAppTests */,
+				4E5F69721F38CC4300E262A5 /* Touchbar-PingAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E5F69551F38CC4200E262A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5F695F1F38CC4200E262A5 /* Assets.xcassets in Resources */,
+				4E5F69621F38CC4300E262A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5F69661F38CC4300E262A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5F69711F38CC4300E262A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12B23ADB524059EF27E7D8A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Touchbar-PingAppTests/Pods-Touchbar-PingAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		242A387FED2DE1F004CF42CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Touchbar-PingApp/Pods-Touchbar-PingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PlainPing/PlainPing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PlainPing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Touchbar-PingApp/Pods-Touchbar-PingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AD18BBAC6EBC7462E5F6C6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Touchbar-PingAppTests/Pods-Touchbar-PingAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44A2F3DB89E5959AA95444AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Touchbar-PingAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58751C4A56F9A54C5BA27274 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Touchbar-PingAppUITests/Pods-Touchbar-PingAppUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C97F647D53D2DB5A792B731 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Touchbar-PingAppUITests/Pods-Touchbar-PingAppUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B3E0E827737A91BDB76590B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Touchbar-PingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9388A0DB57235D4352A27109 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Touchbar-PingAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A01E95FE309F84EDE99DF4FE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Touchbar-PingApp/Pods-Touchbar-PingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E5F69531F38CC4200E262A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5F695B1F38CC4200E262A5 /* AppDelegate.swift in Sources */,
+				4E2910C71F38D07D009FA175 /* WindowController.swift in Sources */,
+				4E2910C61F38D07D009FA175 /* DFRPrivateHeader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5F69641F38CC4300E262A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5F696D1F38CC4300E262A5 /* Touchbar_PingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E5F696F1F38CC4300E262A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5F69781F38CC4300E262A5 /* Touchbar_PingAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E5F696A1F38CC4300E262A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E5F69561F38CC4200E262A5 /* Touchbar-PingApp */;
+			targetProxy = 4E5F69691F38CC4300E262A5 /* PBXContainerItemProxy */;
+		};
+		4E5F69751F38CC4300E262A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E5F69561F38CC4200E262A5 /* Touchbar-PingApp */;
+			targetProxy = 4E5F69741F38CC4300E262A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E5F69601F38CC4300E262A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E5F69611F38CC4300E262A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E5F697A1F38CC4300E262A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E5F697B1F38CC4300E262A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		4E5F697D1F38CC4300E262A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE2BBB525A0B4A2D2579B339 /* Pods-Touchbar-PingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6446TTV2Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = "Touchbar-PingApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Touchbar-PingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Touchbar-PingApp/Touchbar-PingApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4E5F697E1F38CC4300E262A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8D9A74731EF49C1B87F056F /* Pods-Touchbar-PingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6446TTV2Z;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = "Touchbar-PingApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Touchbar-PingApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Touchbar-PingApp/Touchbar-PingApp-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4E5F69801F38CC4300E262A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 629A73F67507EAB01ECA8EEF /* Pods-Touchbar-PingAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6446TTV2Z;
+				INFOPLIST_FILE = "Touchbar-PingAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Touchbar-PingAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touchbar-PingApp.app/Contents/MacOS/Touchbar-PingApp";
+			};
+			name = Debug;
+		};
+		4E5F69811F38CC4300E262A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2586EBAC6BB741DCA90EA2BE /* Pods-Touchbar-PingAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6446TTV2Z;
+				INFOPLIST_FILE = "Touchbar-PingAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Touchbar-PingAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Touchbar-PingApp.app/Contents/MacOS/Touchbar-PingApp";
+			};
+			name = Release;
+		};
+		4E5F69831F38CC4300E262A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EE0635344834B4BE0376F21 /* Pods-Touchbar-PingAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6446TTV2Z;
+				INFOPLIST_FILE = "Touchbar-PingAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Touchbar-PingAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Touchbar-PingApp";
+			};
+			name = Debug;
+		};
+		4E5F69841F38CC4300E262A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19732D07346D03FD261D37F2 /* Pods-Touchbar-PingAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = Q6446TTV2Z;
+				INFOPLIST_FILE = "Touchbar-PingAppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "None.Touchbar-PingAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Touchbar-PingApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E5F69521F38CC4200E262A5 /* Build configuration list for PBXProject "Touchbar-PingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5F697A1F38CC4300E262A5 /* Debug */,
+				4E5F697B1F38CC4300E262A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5F697C1F38CC4300E262A5 /* Build configuration list for PBXNativeTarget "Touchbar-PingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5F697D1F38CC4300E262A5 /* Debug */,
+				4E5F697E1F38CC4300E262A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5F697F1F38CC4300E262A5 /* Build configuration list for PBXNativeTarget "Touchbar-PingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5F69801F38CC4300E262A5 /* Debug */,
+				4E5F69811F38CC4300E262A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E5F69821F38CC4300E262A5 /* Build configuration list for PBXNativeTarget "Touchbar-PingAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E5F69831F38CC4300E262A5 /* Debug */,
+				4E5F69841F38CC4300E262A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E5F694F1F38CC4200E262A5 /* Project object */;
+}
